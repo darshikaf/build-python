@@ -1,0 +1,5 @@
+*.iidfile
+*.id
+*.pyc
+**.DS_Store
+**.swp

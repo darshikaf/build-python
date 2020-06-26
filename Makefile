@@ -1,5 +1,5 @@
-DOCKER_REGISTRY   ?= dockerhub.com
-DOCKER_REPO       ?= darshika/darkf-build-scoring
+DOCKER_REGISTRY   ?= hub.docker.com
+DOCKER_REPO       ?= darshika/darkf-build-testing
 BUILD_TAG         := latest
 TS                := $(shell date "+%Y%m%d%H%M%S")
 NAME              := $(lastword $(subst /, ,$(DOCKER_REPO)))

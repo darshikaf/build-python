@@ -1,6 +1,7 @@
 black==19.3b0
 coverage
 docopt>=0.6.2
+mypy==0.770
 pytest==5.4.3
 pytest-cov
 typing>=3.6.2
